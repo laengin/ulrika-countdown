@@ -138,7 +138,7 @@ const TimeDifference = props => {
       <p>{props.startText}</p>
       <div className="row">
         <div className="ClockFontSize">
-          {timeDifference.years > 0 && `${timeDifference.years} ${strYear}`} <br />
+          {timeDifference.years > 0 && `${timeDifference.years} ${strYear}`}
           {timeDifference.months > 0 && `${timeDifference.months} ${strMonat}`} <br />
           {timeDifference.weeks > 0 && `${timeDifference.weeks} ${strWeek}`} <br />
           {timeDifference.days > 0 && `${timeDifference.days % 7} ${strDay} und `}
