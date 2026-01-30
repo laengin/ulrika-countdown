@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.b9d1a612.css",
-    "main.js": "/react-gh-pages/static/js/main.dc92c1ac.js",
-    "static/js/453.95cd1bd5.chunk.js": "/react-gh-pages/static/js/453.95cd1bd5.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.b9d1a612.css.map": "/react-gh-pages/static/css/main.b9d1a612.css.map",
-    "main.dc92c1ac.js.map": "/react-gh-pages/static/js/main.dc92c1ac.js.map",
-    "453.95cd1bd5.chunk.js.map": "/react-gh-pages/static/js/453.95cd1bd5.chunk.js.map"
+    "main.css": "/ulrika-countdown/static/css/main.b9d1a612.css",
+    "main.js": "/ulrika-countdown/static/js/main.aee540d2.js",
+    "static/js/453.95cd1bd5.chunk.js": "/ulrika-countdown/static/js/453.95cd1bd5.chunk.js",
+    "index.html": "/ulrika-countdown/index.html",
+    "main.b9d1a612.css.map": "/ulrika-countdown/static/css/main.b9d1a612.css.map",
+    "main.aee540d2.js.map": "/ulrika-countdown/static/js/main.aee540d2.js.map",
+    "453.95cd1bd5.chunk.js.map": "/ulrika-countdown/static/js/453.95cd1bd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9d1a612.css",
-    "static/js/main.dc92c1ac.js"
+    "static/js/main.aee540d2.js"
   ]
 }
