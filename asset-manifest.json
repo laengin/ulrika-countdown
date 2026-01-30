@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ulrika-countdown/static/css/main.b9d1a612.css",
-    "main.js": "/ulrika-countdown/static/js/main.aee540d2.js",
+    "main.js": "/ulrika-countdown/static/js/main.efaee707.js",
     "static/js/453.95cd1bd5.chunk.js": "/ulrika-countdown/static/js/453.95cd1bd5.chunk.js",
     "index.html": "/ulrika-countdown/index.html",
     "main.b9d1a612.css.map": "/ulrika-countdown/static/css/main.b9d1a612.css.map",
-    "main.aee540d2.js.map": "/ulrika-countdown/static/js/main.aee540d2.js.map",
+    "main.efaee707.js.map": "/ulrika-countdown/static/js/main.efaee707.js.map",
     "453.95cd1bd5.chunk.js.map": "/ulrika-countdown/static/js/453.95cd1bd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9d1a612.css",
-    "static/js/main.aee540d2.js"
+    "static/js/main.efaee707.js"
   ]
 }
