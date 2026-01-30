@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 
 const TimeDifference = props => {
   const [timeDifference, setTimeDifference] = useState(getTimeDifference(props.targetDateTime));
