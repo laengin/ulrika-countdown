@@ -159,7 +159,7 @@ const TimeDifference = props => {
             </div>
           )}
           <div className="mb-1">
-            und {timeDifference.hours.toString().padStart(2, "0")} h :{timeDifference.minutes.toString().padStart(2, "0")} m :{timeDifference.seconds.toString().padStart(2, "0")} s
+            und {timeDifference.hours.toString().padStart(2, "0")} h {timeDifference.minutes.toString().padStart(2, "0")} m {timeDifference.seconds.toString().padStart(2, "0")} s
           </div>
         </div>
       </div>
