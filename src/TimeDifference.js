@@ -149,7 +149,7 @@ const TimeDifference = props => {
             </div>
           )}
           {timeDifference.weeks > 0 && (
-            <div className="mb-2">
+            <div className="mb-1">
               {timeDifference.weeks} {strWeek}
             </div>
           )}
