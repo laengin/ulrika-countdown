@@ -135,7 +135,7 @@ const TimeDifference = props => {
   const strDay = timeDifference.days % 7 === 1 ? "Tag" : "Tage";
   return (
     <div className="TimeDifference container">
-      <div className="mb-1">{props.startText}</div>
+      <div className="mb-1 text">{props.startText}</div>
       <div className="row">
         <div className="ClockFontSize">
           {timeDifference.years > 0 && (
@@ -163,7 +163,7 @@ const TimeDifference = props => {
           </div>
         </div>
       </div>
-      <div className="mb-1">{props.endText}</div>
+      <div className="mb-1 text">{props.endText}</div>
     </div>
   );
 };
