@@ -135,20 +135,35 @@ const TimeDifference = props => {
   const strDay = timeDifference.days % 7 === 1 ? "Tag" : "Tage";
   return (
     <div className="TimeDifference container">
-      <p>{props.startText}</p>
+      <div className="mb-1">{props.startText}</div>
       <div className="row">
         <div className="ClockFontSize">
-          {timeDifference.years > 0 && `${timeDifference.years} ${strYear}`}
-          {timeDifference.months > 0 && `${timeDifference.months} ${strMonat}`} <br />
-          {timeDifference.weeks > 0 && `${timeDifference.weeks} ${strWeek}`} <br />
-          {timeDifference.days > 0 && `${timeDifference.days % 7} ${strDay} und `}
-          <br />
-          {timeDifference.hours.toString().padStart(2, "0")} h : {timeDifference.minutes.toString().padStart(2, "0")} m : {timeDifference.seconds.toString().padStart(2, "0")} s
+          {timeDifference.years > 0 && (
+            <div className="mb-1">
+              {timeDifference.years} {strYear}
+            </div>
+          )}
+          {timeDifference.months > 0 && (
+            <div className="mb-1">
+              {timeDifference.months} {strMonat}
+            </div>
+          )}
+          {timeDifference.weeks > 0 && (
+            <div className="mb-2">
+              {timeDifference.weeks} {strWeek}
+            </div>
+          )}
+          {timeDifference.days > 0 && (
+            <div className="mb-1">
+              {timeDifference.days % 7} {strDay}
+            </div>
+          )}
+          <div className="mb-1">
+            und {timeDifference.hours.toString().padStart(2, "0")} h :{timeDifference.minutes.toString().padStart(2, "0")} m :{timeDifference.seconds.toString().padStart(2, "0")} s
+          </div>
         </div>
       </div>
-      <div>
-        <p>{props.endText}</p>
-      </div>
+      <div className="mb-1">{props.endText}</div>
     </div>
   );
 };

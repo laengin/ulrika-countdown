@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div className="App wrapper">
       <Heading />
-      <TimeDifference startText="Das bedeutet noch..." endText="...bis zur totalen Freiheit." targetDateTime={targetDate} />
+      <TimeDifference startText="Das bedeutet noch..." endText="...bis zur totalen Freizeit." targetDateTime={targetDate} />
     </div>
   );
 }
